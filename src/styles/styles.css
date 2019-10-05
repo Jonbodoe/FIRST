@@ -25,7 +25,7 @@ a {
 }
 
 nav a.active {
-    color: white;
+    /* color: white; */
     /* background-color:#edeff0; */
     border: 1px solid #15a5b3;
     border-radius: 2rem;
@@ -37,7 +37,7 @@ nav a.navbar-brand {
 }
 
 nav .nav-item a {
-    color: white;
+    /* color: white; */
     letter-spacing: 1px;
     padding: 0.4rem 2rem;
     transition: 0.3s
@@ -75,13 +75,22 @@ nav .nav-item a:hover {
 
 /* HOME SECTION STYLES */
 
+
 #engineer {
-    height: 85vh;
+    height: 92vh;
+    overflow: hidden;
+}
+
+#software {
+    height: 92vh;
+    background-color: #f5f7f7;
+    overflow: hidden;
+    box-shadow: 2px 1px 8px #d6d6d6;
     overflow: hidden;
 }
 
 #about {
-    height: 85vh;
+    height: 92vh;
     /* background-color:#f5f7f7; */
     overflow: hidden;
     /* box-shadow: 2px 1px 8px #d6d6d6; */
@@ -98,17 +107,6 @@ nav .nav-item a:hover {
     background-attachment: scroll;
 }
 
-#software {
-    height: 85vh;
-    background-color: #f5f7f7;
-    overflow: hidden;
-    box-shadow: 2px 1px 8px #d6d6d6;
-    overflow: hidden;
-}
-
-#teamPhoto {
-    overflow: hidden;
-}
 
 .text-teal {
     color: #0D5C63;
@@ -148,7 +146,7 @@ a.contact-link:hover {
 
 footer #footer {
     height: 30vh;
-    background-color: #0D5C63;
+    background-color: #343a40;
 }
 
 .divide {
@@ -191,15 +189,21 @@ footer #footer {
     color: #0D5C63;
 }
 
-/* a#send {
-    display:flex;
-    border-radius: 3rem;
-    width: 10rem;
-    background-color: #0D5C63;
-    transition: 0.4s
+/* PRODUCT */
+
+#app h1 {
+    font-size: 4rem;
+    line-height: 0.85
 }
 
-a#send:hover {
-    border-radius: 3rem;
-    width: 16rem;
-} */
+#app {
+    height: 100vh;
+    /* background-image: url('../img/firstApp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+#ipad {
+    height: 130vh;
+}
