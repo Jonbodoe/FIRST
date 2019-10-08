@@ -163,7 +163,7 @@ a.contact-link:hover {
         font-size:1.5rem;
     }
 
-  }
+}
 
 
 /* FOOTER STYLES */
@@ -226,12 +226,16 @@ footer p {
     font-size: 4rem;
     line-height: 0.85
 }
-#ipad {
-    height: 130vh;
-}
 #watch {
-    /* height: 82vh; */
     background-color: #f5f7f7;
-    /* box-shadow: 2px 1px 8px #d6d6d6; */
     overflow: hidden;
+}
+
+@media only screen and (max-width: 760px) {
+    #app h1, #watch h1, #ipad h1 {
+        font-size: 2rem;
+    }
+    #app img{
+        padding-top: 4rem;
+    }
 }
