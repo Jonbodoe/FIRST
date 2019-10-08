@@ -110,6 +110,9 @@ nav .nav-item a:hover {
 .text-teal {
     color: #0D5C63;
 }
+.text-mint {
+    color: #6FEDB7;
+}
 
 a.link {
     border-radius: 3rem;
@@ -215,26 +218,20 @@ footer p {
 
 /* PRODUCT */
 
+#product {
+    background-color: #343a40;
+}
+
 #app h1 {
     font-size: 4rem;
     line-height: 0.85
-}
-
-#app {
-    height: 100vh;
-    /* background-image: url('../img/firstApp.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
 }
 #ipad {
     height: 130vh;
 }
 #watch {
-    height: 72vh;
+    /* height: 82vh; */
     background-color: #f5f7f7;
-    overflow: hidden;
-    box-shadow: 2px 1px 8px #d6d6d6;
+    /* box-shadow: 2px 1px 8px #d6d6d6; */
     overflow: hidden;
 }
