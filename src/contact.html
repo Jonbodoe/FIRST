@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light text-teal navbar">
-        <a class="navbar-brand font-weight-bolder text-teal" href="../index.html">Intuitive Robotics</a>
+        <a class="navbar-brand font-weight-bolder text-teal" href="./index.html">Intuitive Robotics</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,44 +44,49 @@
         </div>
     </nav>
     <section class="container-fluid">
-        <div class="row justify-content-center p-2">
+        <div class="row d-flex justify-content-center p-2">
             <div>
-                <h1 class="text-teal font-weight-bolder d-flex justify-content-center py-2">We Would Love to Hear From
+                <h1 id="contact-title" class="text-teal font-weight-bolder d-flex justify-content-center p-3">We Would Love to Hear From
                     You!</h1>
             </div>
             <div class="col-md-9 mb-md-0 mb-5 px-xl-5">
                 <form class="px-xl-5" id="contact-form" name="contact-form" action="mail.php" method="POST">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-1"></div>
+                        <div class="col-md-5">
                             <div class="md-form mb-0">
                                 <input type="text" id="name" name="name" class="form-control">
                                 <label id="formText" for="name" class="">Your name</label>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="md-form mb-0">
                                 <input type="text" id="email" name="email" class="form-control">
                                 <label id="formText" for="email" class="">Your email</label>
                             </div>
                         </div>
+                        <div class="col-sm-1"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
                             <div class="md-form mb-0">
                                 <input type="text" id="subject" name="subject" class="form-control">
                                 <label id="formText" for="subject" class="">Subject</label>
                             </div>
                         </div>
+                        <div class="col-md-1"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
                             <div class="md-form">
                                 <textarea type="text" id="message" name="message" rows="7"
                                     class="form-control md-textarea"></textarea>
                                 <label id="formText" for="message">Your message</label>
                             </div>
-
                         </div>
+                        <div class="col-md-1"></div>
                     </div>
                 </form>
                 <div class="row justify-content-center py-4">
@@ -93,25 +98,23 @@
                 <div class="status"></div>
             </div>
         </div>
-        </div>
-
     </section>
     <footer class="container-fluid">
         <div id="footer" class="row px-xl-5 py-5">
-            <div class="col-xl-6 text-white align-self-center">
+            <div class="col-md-6 text-white align-self-center">
                 <p class="font-weight-bolder">Intuitive Robotics</p>
             </div>
-            <div class="col-xl-2 text-white align-self-center divide">
+            <div class="col-md-2 text-white align-self-center divide">
                 <p class="font-weight-bold">Products</p>
                 <a class="text-white" href="./product.html">Robotics</a><br>
                 <a class="text-white" href="./product.html">Software</a>
             </div>
-            <div class="col-xl-2 text-white align-self-center divide">
+            <div class="col-md-2 text-white align-self-center divide">
                 <p class="font-weight-bold">Reach Us</p>
                 <a class="text-white" href="./about.html">About</a><br>
                 <a class="text-white" href="./contact.html">Contact</a>
             </div>
-            <div class="col-xl-2 text-white align-self-center divide">
+            <div class="col-md-2 text-white align-self-center divide">
                 <p class="font-weight-bold">Information Use</p>
                 <a class="text-white" href="./infoPages/terms.html">Terms of Use</a><br>
                 <a class="text-white" href="./infoPages/privacy.html">Privacy & Cookies</a>
