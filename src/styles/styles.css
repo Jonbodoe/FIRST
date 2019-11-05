@@ -11,15 +11,11 @@ section#engineer{
     width: 80vw;
     background-color: #edf0ef;
 }
-section#donate{
-    background-color: #edf0ef
-}
-section#engineer .reverse{
-    display:flex;
-    flex-wrap: wrap-reverse;
-}
-section#wide-section {
-    background-color: #343a40;
+
+section #developer img#json{
+    border-radius: 100rem;
+    opacity: 0.9;
+    width: 28rem;
 }
 section#firefighter {
     background-color: #343a40;
@@ -30,7 +26,13 @@ section#firefighter {
     background-attachment: fixed;
 
 }
-
+section#engineer .reverse{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+section#wide-section {
+    background-color: #343a40;
+}
 img#teamPhoto, img#ipadPhoto {
     border-radius: 1.2rem;
 }
@@ -95,14 +97,11 @@ nav.navbar-light .nav-item a:hover {
     height: 225vh;
 }
 .headerTrees {
-    opacity: 1;
     width: 100%;
     background-image: url('../img/trees.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    transition: 0.3s;
 }
 .top #software {
     border-radius: 40px 40px 0px 0px;
@@ -116,6 +115,10 @@ nav.navbar-light .nav-item a:hover {
 }
 .img-half {
     width:13rem;
+    height:auto;
+}
+.img-quarter {
+    width:7rem;
     height:auto;
 }
 .hidden {
@@ -165,12 +168,6 @@ nav.navbar-light .nav-item a:hover {
 #engineer {
     overflow: hidden;
 }
-/* #software {
-    background-color: #f5f7f7;
-    overflow: hidden;
-    box-shadow: 2px 1px 8px #d6d6d6;
-    overflow: hidden;
-} */
 #About-header {
     background-color:#343a40;
 }
@@ -228,9 +225,6 @@ a.contact-link:hover {
     footer #footer {
         flex-wrap: wrap
     }
-    /* img.home-photo{
-        display:none;
-    } */
     .container-fluid .topic h1 {
         font-size:1.5rem;
     }
@@ -251,7 +245,6 @@ footer p {
     padding: 0.5rem 1rem;
 }
 
-
 /* PRIVACY SECTION STYLES */
 
 #privacy {
@@ -264,12 +257,6 @@ footer p {
 }
 
 /* ABOUT SECTION */
-
-.bios {
-    padding-top: 10px;
-    margin: 0 auto;
-    position: relative;
-}
 
 #aboutTeam {
     display: block;
@@ -288,7 +275,7 @@ footer p {
     border-radius: 50rem;
 }
 .block {
-    height: 0.6rem;
+    height: 0.3rem;
     width: 38%;
     border-radius: 1rem;
     background-color: #6FEDB7;
