@@ -22,7 +22,6 @@ section#firefighter {
     background-image: url('../img/firefighter.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
@@ -98,7 +97,7 @@ nav.navbar-light .nav-item a:hover {
 }
 .headerTrees {
     width: 100%;
-    background-image: url('../img/trees.jpg');
+    background-image: url('../img/forest1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -287,12 +286,15 @@ footer p {
 #formText {
     color: #0D5C63;
 }
-#teamImg {
-    background-image: url('../img/team.jpg');
-    background-size: cover;
-    height: 75vh;
+#teamImg img {
+    /* background-image: url('../img/hands.jpg');
+    background-size: cover; */
+    opacity: 0.9;
+    width: 34rem;
+    border-radius: 100rem;
+    /* height: 75vh;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 @media only screen and (max-width: 760px) {
     #contact-title {
@@ -309,6 +311,14 @@ footer p {
 #app h1 {
     font-size: 4rem;
     line-height: 0.85
+}
+#app {
+    background-image: url('../img/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40rem;
 }
 #watch {
     background-color: #f5f7f7;
