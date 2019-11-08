@@ -13,11 +13,6 @@ section#engineer {
     background-color: #edf0ef;
 }
 
-section #developer img#json {
-    border-radius: 100rem;
-    opacity: 0.9;
-    width: 28rem;
-}
 
 section#firefighter {
     background-color: #343a40;
@@ -34,10 +29,6 @@ section#engineer .reverse {
 
 section#wide-section {
     background-color: #343a40;
-}
-
-img#teamPhoto, img#ipadPhoto {
-    border-radius: 1.2rem;
 }
 
 /* NAVBAR AND HEADER STYLES */
@@ -147,7 +138,7 @@ nav.navbar-light .nav-item a:hover {
 #arrow {
     position: fixed;
     bottom: 3rem;
-    width: 4.5rem;
+    width: 3.5rem;
     -webkit-animation: arrow 3s infinite;
     animation: arrow 3s infinite;
     transition: 0.6s;
@@ -355,9 +346,11 @@ footer p {
 }
 
 /* PRODUCT */
-
-#product {
+.black-bg {
     background-color: #343a40;
+}
+.grey-bg {
+    background-color: #f2f2f2;
 }
 
 #app h1 {
@@ -365,27 +358,21 @@ footer p {
     line-height: 0.85
 }
 
+#iphone img{
+    opacity: 0.92;
+}
+
 #app {
-    background-image: url('../img/mountain.jpg');
+    background-image: url('../img/json2.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40rem;
-}
-
-#watch {
-    background-color: #f5f7f7;
-    box-shadow: 0px 1px 8px #d6d6d6;
-    overflow: hidden;
-}
-
-#watch-text {
-    background-attachment: fixed;
+    height: 38rem;
+    z-index: 3;
+    box-shadow: 0px 2px 20px #dedede;
 }
 
 @media only screen and (max-width: 760px) {
-    #app h1, #watch h1, #ipad h1 {
+    #app h1, #watch h1, #iphone h1 {
         font-size: 2rem;
     }
     #app img {
