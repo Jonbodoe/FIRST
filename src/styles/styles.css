@@ -199,15 +199,6 @@ nav.navbar-light .nav-item a:hover {
         background-repeat: no-repeat;
 
     }
-    section#firefighter {
-        background-attachment: contain;
-        background-repeat: no-repeat;
-        background-size: auto;
-    }
-
-    section#firefighter .spacer {
-        display: none;
-    }
     
     #header {
         height:200vh;
@@ -342,8 +333,8 @@ footer p {
 }
 
 #teamImg img {
-    /* background-image: url('../img/hands.jpg');
-    background-size: cover; */
+    background-image: url('../img/team.jpg');
+    background-size: cover;
     opacity: 0.9;
     width: 34rem;
     border-radius: 100rem;
