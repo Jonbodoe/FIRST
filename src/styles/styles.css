@@ -3,51 +3,59 @@ html, body {
     margin: 0;
 }
 
-section#software{
+section#software {
     width: 80vw;
     background-color: #f5f7f7;
 }
-section#engineer{
+
+section#engineer {
     width: 80vw;
     background-color: #edf0ef;
 }
 
-section #developer img#json{
+section #developer img#json {
     border-radius: 100rem;
     opacity: 0.9;
     width: 28rem;
 }
+
 section#firefighter {
     background-color: #343a40;
     background-image: url('../img/firefighter.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
 }
-section#engineer .reverse{
-    display:flex;
+
+section#engineer .reverse {
+    display: flex;
     flex-wrap: wrap-reverse;
 }
+
 section#wide-section {
     background-color: #343a40;
 }
+
 img#teamPhoto, img#ipadPhoto {
     border-radius: 1.2rem;
 }
+
 /* NAVBAR AND HEADER STYLES */
 
 h1.intro1 {
     font-size: 4rem;
     line-height: 1.1;
 }
+
 h1.intro2 {
     font-size: 6.3rem;
     line-height: 0.9;
 }
+
 nav {
     transition: 0.3s;
 }
+
 nav.shadow {
     box-shadow: 0px 1px 8px #d6d6d6;
 }
@@ -73,12 +81,12 @@ nav .nav-item a {
 }
 
 nav.navbar-dark .nav-item a:hover {
-    background-color:rgba(247,247,247,0.3);
+    background-color: rgba(247, 247, 247, 0.3);
     border-radius: 2rem;
 }
 
 nav.navbar-light .nav-item a:hover {
-    background-color:rgba(237, 237, 237, 1);
+    background-color: rgba(237, 237, 237, 1);
     border-radius: 2rem;
 }
 
@@ -95,6 +103,7 @@ nav.navbar-light .nav-item a:hover {
     width: 100%;
     height: 225vh;
 }
+
 .headerTrees {
     width: 100%;
     background-image: url('../img/forest1.jpg');
@@ -102,6 +111,7 @@ nav.navbar-light .nav-item a:hover {
     background-position: center;
     background-attachment: fixed;
 }
+
 .top #software {
     border-radius: 40px 40px 0px 0px;
 }
@@ -109,71 +119,103 @@ nav.navbar-light .nav-item a:hover {
 .spacer {
     height: 15vh;
 }
+
 .mini-spacer {
     height: 8vh;
 }
+
 .img-half {
-    width:13rem;
-    height:auto;
+    width: 13rem;
+    height: auto;
 }
+
 .img-quarter {
-    width:7rem;
-    height:auto;
+    width: 7rem;
+    height: auto;
 }
+
 .hidden {
-    display:none;
+    display: none;
 }
-#arrow-container{
+
+#arrow-container {
     position: relative;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 #arrow {
-    position:fixed;
+    position: fixed;
     bottom: 3rem;
     width: 4.5rem;
     -webkit-animation: arrow 3s infinite;
     animation: arrow 3s infinite;
     transition: 0.6s;
 }
+
 @-webkit-keyframes arrow {
-    0%   {bottom: 45px;}
-    50%  {bottom: 62px;}
-    100%  {bottom: 45px}
-  }
-  
-  @keyframes arrow {
-    0%   {bottom: 45px;}
-    50%  {bottom: 62px;}
-    100%  {bottom: 45px}
-  }
+    0% {
+        bottom: 45px;
+    }
+    50% {
+        bottom: 62px;
+    }
+    100% {
+        bottom: 45px
+    }
+}
+
+@keyframes arrow {
+    0% {
+        bottom: 45px;
+    }
+    50% {
+        bottom: 62px;
+    }
+    100% {
+        bottom: 45px
+    }
+}
 
 @media only screen and (max-width: 760px) {
     .img-half {
-        width:9rem;
-        height:auto;
+        width: 9rem;
+        height: auto;
     }
     #headerImg {
         background-attachment: scroll;
     }
-    section#engineer, section#software{
+    section#engineer, section#software {
         width: 90vw;
         background-color: #edf0ef;
     }
     #arrow {
         display: none;
     }
+    .headerTrees {
+        width: 100%;
+        position: fixed;
+        background-image: url('../img/forest1.jpg');
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
 }
+
 #engineer {
     overflow: hidden;
 }
+
 #About-header {
-    background-color:#343a40;
+    background-color: #343a40;
 }
 
 .text-teal {
     color: #0D5C63;
 }
+
 .text-mint {
     color: #6FEDB7;
 }
@@ -207,16 +249,16 @@ a.contact-link:hover {
 .col-xl-8, .col-xl-7 {
     padding: 0;
 }
-@media only screen and (max-width: 760px) {
-    nav{
-        background-color: rgba(256,247,247,0.3);
-    }
 
+@media only screen and (max-width: 760px) {
+    nav {
+        background-color: rgba(256, 247, 247, 0.3);
+    }
     h2 {
-        font-size:1.3rem;
+        font-size: 1.3rem;
     }
     h1.intro1 {
-        font-size:2.5rem;
+        font-size: 2.5rem;
     }
     h1.intro2 {
         font-size: 3.1rem;
@@ -225,21 +267,21 @@ a.contact-link:hover {
         flex-wrap: wrap
     }
     .container-fluid .topic h1 {
-        font-size:1.5rem;
+        font-size: 1.5rem;
     }
-
 }
-
 
 /* FOOTER STYLES */
 
 footer #footer {
-    display:flex;
+    display: flex;
     background-color: #343a40;
 }
+
 footer p {
-    margin:0;
+    margin: 0;
 }
+
 .divide {
     padding: 0.5rem 1rem;
 }
@@ -266,13 +308,16 @@ footer p {
     padding-bottom: 40px;
     padding-top: 10px;
 }
+
 .circle {
     border-radius: 60rem;
     padding: 2rem;
 }
+
 .diagonal {
     border-radius: 50rem;
 }
+
 .block {
     height: 0.3rem;
     width: 38%;
@@ -280,12 +325,12 @@ footer p {
     background-color: #6FEDB7;
 }
 
-
 /* CONTACT SECTION */
 
 #formText {
     color: #0D5C63;
 }
+
 #teamImg img {
     /* background-image: url('../img/hands.jpg');
     background-size: cover; */
@@ -296,6 +341,7 @@ footer p {
     background-position: center;
     background-repeat: no-repeat; */
 }
+
 @media only screen and (max-width: 760px) {
     #contact-title {
         font-size: 1.7rem;
@@ -312,6 +358,7 @@ footer p {
     font-size: 4rem;
     line-height: 0.85
 }
+
 #app {
     background-image: url('../img/mountain.jpg');
     background-size: cover;
@@ -320,11 +367,13 @@ footer p {
     background-attachment: fixed;
     height: 40rem;
 }
+
 #watch {
     background-color: #f5f7f7;
     box-shadow: 0px 1px 8px #d6d6d6;
     overflow: hidden;
 }
+
 #watch-text {
     background-attachment: fixed;
 }
@@ -333,7 +382,7 @@ footer p {
     #app h1, #watch h1, #ipad h1 {
         font-size: 2rem;
     }
-    #app img{
+    #app img {
         padding-top: 4rem;
     }
 }
