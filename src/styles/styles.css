@@ -194,13 +194,8 @@ nav.navbar-light .nav-item a:hover {
     }
     .headerTrees {
         width: 100%;
-        position: fixed;
-        background-image: url('../img/forest1.jpg');
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
+        background-image: url('../img/trees.jpg');
+        
     }
 }
 
