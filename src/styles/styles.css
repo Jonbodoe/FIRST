@@ -194,8 +194,13 @@ nav.navbar-light .nav-item a:hover {
     }
     .headerTrees {
         width: 100%;
-        background-image: url('../img/trees.jpg');
-        
+        background-image: url('../img/forestm.jpg');
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+
+    }
+    #header {
+        height:200vh;
     }
 }
 
