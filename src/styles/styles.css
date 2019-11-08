@@ -352,6 +352,9 @@ footer p {
 .grey-bg {
     background-color: #f2f2f2;
 }
+.greyish-bg {
+    background-color: #f7f7f7;
+}
 
 #app h1 {
     font-size: 4rem;
