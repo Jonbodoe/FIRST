@@ -332,15 +332,20 @@ footer p {
     color: #0D5C63;
 }
 
-#teamImg img {
+#teamImg {
     background-image: url('../img/team.jpg');
     background-size: cover;
     opacity: 0.9;
     width: 34rem;
-    border-radius: 100rem;
-    /* height: 75vh;
+    height: 75vh;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+}
+
+#support {
+    border-radius: 100rem;
+    padding: 1rem;
+    opacity: 0.9;
 }
 
 @media only screen and (max-width: 760px) {
