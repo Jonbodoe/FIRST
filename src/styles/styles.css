@@ -199,6 +199,17 @@ nav.navbar-light .nav-item a:hover {
         background-repeat: no-repeat;
 
     }
+    section#firefighter {
+        background-color: #343a40;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    section#firefighter .spacer {
+        display: none;
+    }
+    
     #header {
         height:200vh;
     }
