@@ -367,6 +367,7 @@ footer p {
 
 #app {
     background-image: url('../img/json2.png');
+    background-color: #343a40;
     background-size: cover;
     background-position: center;
     height: 36rem;
@@ -375,6 +376,7 @@ footer p {
 }
 #robotics {
     background-image: url('../img/robot.jpg');
+    background-color: #343a40;
     background-size: cover;
     background-position: center;
     height: 37rem;
