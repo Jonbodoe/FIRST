@@ -68,7 +68,9 @@ nav a.navbar-brand {
 nav .nav-item a {
     letter-spacing: 1px;
     padding: 0.4rem 2rem;
-    transition: 0.3s
+    transition: 0.3s;
+    color: white;
+    border-radius: 2rem;
 }
 
 nav.navbar-dark .nav-item a:hover {
@@ -79,6 +81,9 @@ nav.navbar-dark .nav-item a:hover {
 nav.navbar-light .nav-item a:hover {
     background-color: rgba(237, 237, 237, 1);
     border-radius: 2rem;
+}
+.bg-nav {
+    background-color: rgba(247, 247, 247, 0.3);
 }
 
 #fire-logo {
@@ -123,6 +128,9 @@ nav.navbar-light .nav-item a:hover {
 .img-quarter {
     width: 7rem;
     height: auto;
+}
+.img-mini {
+    width: 3rem;
 }
 
 .hidden {
